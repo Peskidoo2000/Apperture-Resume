@@ -1,13 +1,258 @@
 body {
-  margin: 0;
+  margin: 0px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  background-color: #DCE1F2;
+  overflow-x: hidden;
+}
+@media(max-width:318px){
+  body{
+      visibility:hidden;
+  }
+  }
+
+.App-header{
+  background-color: rgb(71, 70, 70);
+  color: white;
+  font-family: "Anton SC";
+  
+  font-size: 1.5rem;
+}
+.navbar-toggler{
+  margin-left: 3rem;
+  border: 1px solid gray;
+  padding: 3px;
+  border-radius: 5px;
+  width: 3rem;
+}
+.toggler-icon{
+  color: gray;
+}
+.offcanvas{
+  background-color: rgb(71, 70, 70);
+  color: whitesmoke;
+}
+.nav-item{
+  border-bottom: 2px solid gray;
+}
+.btn-close{
+  margin-left: 15rem;
+  display: block;
+}
+.app-aside{
+  margin-top: 3rem;
+ }
+ 
+.aside1{
+  font-size: 1.5rem;
+}
+.aside2{
+  font-family: "Bebas Neue";
+  font-size: 1.5rem;
+}
+.aside-link{
+  text-decoration: none;
+  display:block;
+  color:white;
+  border-bottom: 2px solid black;
+  padding-bottom: 0.58rem;
+}
+.ai-icon{
+  font-size: 9rem !important;
+ 
+  color: black;
+  text-align: center !important;
+}
+.ai-icon1{
+  font-size: 3rem !important;
+  color: white;
+  text-align: center !important;
+}
+.create-button{
+  margin-top: 1rem !important;
+}
+.display-5{
+  font-size: 1.5rem;
+}
+.lead{
+  font-size: 0.7rem;
+}
+.apart{
+  font-weight: bolder;
+  font-size: 1rem;
+}
+.footer{
+  position: relative;
+  top: 2rem;
+  background-color: rgb(71, 70, 70);
+  text-align: center;
+  padding: 0px;
+  width:100%;
+  margin: 0px;
 }
 
+.inco{
+  font-size: 1.5rem;
+}
+ .inco{
+  text-decoration: none;
+  font-family: Anton SC;
+  color: white !important;
+}
+.parent-port{
+  font-size: 2rem !important; 
+}
+.portfolio{
+  color: white !important;
+  
+}
+.contact{
+  display:grid;
+  grid-template-columns: auto auto auto;
+  margin-top: 1rem;
+}
+.template-parent{
+  text-align: center;
+  margin-top: 2rem;
+}
+.template-topic1{
+  font-family: "Varela Round";
+}
+.template-topic2{
+  font-family: "Anton SC"
+} 
+.template-topic3{
+  font-family: "Varela Round";
+}
+.feature-word{
+  color: blueviolet !important;
+}
+.cover{
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+.feature-word2{
+  margin-top: -1rem !important;
+}
+.about-title{
+  margin: auto;
+  width:70%;
+  color: blue;
+}
+.lead-last{
+  margin: auto;
+  width: 75%;
+}
+
+.community{
+  font-size: 0.7rem;
+  color:white !important;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@media (min-width:450px){
+.about-title{
+  margin: auto;
+  width:40%;
+  color: blue;
+}
+.lead-last{
+  margin: auto;
+  width: 45%;
+}
+}
+
+@media (min-width:768px){
+  .btn-close{
+    display: none;
+  }
+  .parent-aside{
+    margin-left: -5rem;
+  }
+ 
+   .aside-link{
+   border:none;
+   display:inline;
+   padding-right: 2.3rem;
+  
+   }
+   .appeture{
+    visibility: hidden;
+   }
+   .ai-icon1{
+    font-size: 5rem !important;
+   }
+   .heroes{
+   margin-left:8rem;
+   width: 95%;
+   }
+   .heroes1{
+    margin-left: 8rem;
+   }
+   .second{
+   width:12rem  !important;
+   margin-left: 8rem !important;
+  }
+
+  .about-title{
+    width:25%;
+  }
+  .lead-last{
+    width: 20%;
+  
+}
+}
+@media(min-width: 900px){
+  .aside-link{
+    border:none;
+    display:inline;
+    padding-right: 4rem;
+   
+    }
+}
+
+@media(min-width: 1010px){
+  .aside-link{
+    border:none;
+    display:inline;
+    padding-right: 5rem;
+   
+    }
+}
+
+@media(min-width: 1115px){
+  .aside-link{
+    border:none;
+    display:inline;
+    padding-right: 6rem;
+  }
+  .about-title{
+    width:20%;
+  }
+  .lead-last{
+    width: 30%;
+  
+}
+}
+
+@media(min-width: 1130px){
+  .aside-link{
+    border:none;
+    display:inline;
+    padding-right: 9rem;
+   
+    }
+    .element-cover{
+      width: 90%;
+      margin: auto;
+    }
+
 }
