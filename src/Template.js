@@ -37,7 +37,7 @@ function Template(){
               </div>
               <div className="col">
                 <div className="card shadow-sm">
-                <img src="/images/template 2.jpeg" alt="template2"/>
+                <img src="/images/Template 2.jpeg" alt="template2"/>
                   <div className="card-body">
                     <p className="card-text">Dedicated and results-driven individual looking to join a dynamic team and contribute to achieving excellence</p>
                     <div className="d-flex justify-content-between align-items-center">
@@ -50,7 +50,7 @@ function Template(){
               </div>
               <div className="col">
                 <div className="card shadow-sm">
-                <img src="/images/template 3.png" alt="template3"/>
+                <img src="/images/Template 3.png" alt="template3"/>
                    <div className="card-body">
                     <p className="card-text">Ambitious and innovative professional seeking a role that fosters creativity, growth and collaboration.</p>
                     <div className="d-flex justify-content-between align-items-center">
@@ -64,7 +64,7 @@ function Template(){
       
               <div className="col">
                 <div className="card shadow-sm">
-                <img src="/images/template 5.png" alt="template4"/>
+                <img src="/images/Template 5.png" alt="template4"/>
                   <div className="card-body">
                     <p className="card-text">Result-oriented individual seeking a challenging role that requires strategic thinking, problem-solving, and leadership skills</p>
                     <div className="d-flex justify-content-between align-items-center">
@@ -77,7 +77,7 @@ function Template(){
               </div>
               <div className="col">
                 <div className="card shadow-sm">
-                <img src="/images/template 4.jpeg" alt="template5"/>
+                <img src="/images/Template 4.jpeg" alt="template5"/>
                   <div className="card-body">
                   <p className="card-text">To secure a position that alings with my values and goals, offering a platform for conitinious learning and progress.</p>
                      <div className="d-flex justify-content-between align-items-center">
@@ -90,7 +90,7 @@ function Template(){
               </div>
               <div className="col">
                 <div className="card shadow-sm">
-                <img src="/images/template 2.jpeg" alt="template6"/>
+                <img src="/images/Template 2.jpeg" alt="template6"/>
                   <div className="card-body">
                   <p className="card-text">To join a forward-thinking organization and contribute my skills ad experience to drive innovation and success.</p>
                       <div className="d-flex justify-content-between align-items-center">

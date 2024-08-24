@@ -42,7 +42,7 @@ function About(){
     </div>
 
     <ul className="list-unstyled contact">
-      <li className="ms-3 "><a className="text-body-secondary portfolio" href="https://okunola-devportfolio.netlify.app/port.html"><WorkIcon className="parent-port"/></a></li>
+      <li className="ms-3 "><a className="text-body-secondary portfolio" href="#"><WorkIcon className="parent-port"/></a></li>
       <li className="ms-3"><a className="text-body-secondary portfolio" href="https://wa.me/<+2349073502307>"><WhatsAppIcon className="parent-port"/></a></li>
       <li className="ms-3"><a className="text-body-secondary portfolio" href="https://facebook.com/100027107281763/"><FacebookIcon className="parent-port"/></a></li>
     </ul>
